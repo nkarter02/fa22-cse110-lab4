@@ -1,14 +1,13 @@
-function dp(p, d) {
-    const disc = [];
-    const l = p.length;
+let student = {
+    name: 'Sarah',
+    major: 'CS',
+    'Grad Year': '2022',
+    greeting: function() { console.log('hi'); },
+    'Fav teacher': {
+        name: 't p',
+        course: 'cse 110'
+    },
+    courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
+};
 
-    for (let i = 0; i < l; i++) {
-        const dp = p[i] * (1 - d);
-        disc.push(dp);
-        console.log(disc);
-    }
-    console.log(i);
-    return disc;
-}
-
-dp([100, 200, 300], 0.5);
+console.log(student.courseLoad[0]);

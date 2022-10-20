@@ -9,3 +9,27 @@
 9. There will be an error since i is not in scope.
 10. It will print length's value of 3 since it was set to price's length of 3 and never changed (it is still in scope).
 11. It will return the discounted array of [50, 100, 150].
+12. 
+    A) student.name
+    B) student['Grad Year']
+    C) student.greeting()
+    D) student['Favorite Teacher'].name
+    E) student.courseLoad[0]
+13. 
+    A) '32', since the 2 is appending as a string to '3'.
+    B) 1, since the '3' is converted to the number 3 before performing subtraction.
+    C) 3, since null is treated as 0 in arithmetic.
+    D) '3null', since null is converted into 'null' to match '3'.
+    E) 4, since true is converted to 1 in arithmetic.
+    F) 0, since both are converted to 0 in arithmetic.
+    G) 3undefined, since undefined is converted to 'undefined' to match '3'.
+    H) NaN, since undefined is converted to NaN in arithmetic.
+14. 
+    A) true, since '2' is converted to 2 for numerical comparisons.
+    B) false, since '2' comes after '12' lexicographically.
+    C) true, since '2' is converted to 2 for numerical comparisons.
+    D) false, since 2 and '2' are different types (always false for ===).
+    E) false, since true is converted to 1 for numerical comparisons.
+    F) true, since all nonzero numbers are converted to true with the Boolean() function.
+15. The main difference is that == will convert the types first to find equality, whereas === will immediately give false for different types.
+16. 
