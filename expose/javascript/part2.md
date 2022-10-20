@@ -32,4 +32,3 @@
     E) false, since true is converted to 1 for numerical comparisons.
     F) true, since all nonzero numbers are converted to true with the Boolean() function.
 15. The main difference is that == will convert the types first to find equality, whereas === will immediately give false for different types.
-16. 
