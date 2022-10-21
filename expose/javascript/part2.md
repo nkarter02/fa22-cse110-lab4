@@ -31,4 +31,9 @@
     D) false, since 2 and '2' are different types (always false for ===).
     E) false, since true is converted to 1 for numerical comparisons.
     F) true, since all nonzero numbers are converted to true with the Boolean() function.
+
 15. The main difference is that == will convert the types first to find equality, whereas === will immediately give false for different types.
+16. (located in part2-question16.js)
+17. The modifyArray function runs with the [1,2,3] array and doSomething function, which takes a number and doubles it. In modifyArray, we create a new array and push the elements of [1,2,3] after they have been changed by the callback function (which in this case is doSomething). Therefore, each element in the original input array is doubled, as expected by the doSomething function, then the entire array is returned.
+18. (located in part2-question18.js)
+19. The printNums function is executed, which immediately prints out 1 and then 4, since they have no delay. After this, it waits the needed time before printing 3 (which happens immediately since its timer is 0), then it prints 2 (which happens after a second).
