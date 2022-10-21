@@ -1,0 +1,2 @@
+1. The input numbers were treated as strings, so when the sum is calculated, the program actually concatenates the string instead of adding the numbers.
+2. I would fix it by converting the string to numbers by subtracting 0, then adding the result of those.
